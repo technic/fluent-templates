@@ -172,6 +172,10 @@
 //! The `lang` parameter is optional when the default language of the corresponding
 //! `FluentLoader` is set (see [`FluentLoader::with_default_lang`]).
 //!
+//! ```toml
+//!fluent-templates = { version = "*", features = ["tera"] }
+//!```
+//!
 //! ```rust
 //! use fluent_templates::{FluentLoader, static_loader};
 //!
@@ -205,6 +209,10 @@
 //! ### Handlebars
 //! In handlebars, `fluent-templates` will read the `lang` field in your
 //! [`handlebars::Context`] while rendering.
+//!
+//! ```toml
+//!fluent-templates = { version = "*", features = ["handlebars"] }
+//!```
 //!
 //! ```rust
 //! use fluent_templates::{FluentLoader, static_loader};
